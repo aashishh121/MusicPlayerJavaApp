@@ -9,10 +9,6 @@ public class Songs {
 		this.duration = duration;
 	}
 	
-	public Songs() {
-		
-	}
-	
 	public String getTitle() {
 		return title;
 		
