@@ -13,10 +13,6 @@ public class Albums {
 		this.songs = new ArrayList<Songs>();
 	}
 	
-	public Albums() {
-		
-	}
-	
 	public Songs findSong(String title) {
 		for(Songs checkedSongs : songs) {
 			if(checkedSongs.getTitle().equals(title)) {
