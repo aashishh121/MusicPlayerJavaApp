@@ -121,6 +121,82 @@ public class Main {
             }else {
             	
             }
+		
+//            switch (action){
+//
+//                case 0:
+//                    System.out.println("Playlist complete");
+//                    System.out.println("Press 7 to play the song again");
+//                    quit = true;
+//                    break;
+//
+//                case 1:
+//                    if(!forward){
+//                        if(listIterator.hasNext()){
+//                            listIterator.next();
+//                        }
+//                        forward = true;
+//                    }
+//                    if(listIterator.hasNext()){
+//                        System.out.println("Now playing "+listIterator.next().toString());
+//                    }else {
+//                        System.out.println("no song availble, reached to the end of the list");
+//                        forward = false;
+//                    }
+//                    break;
+//                case 2:
+//                    if(forward){
+//                        if (listIterator.hasPrevious()){
+//                            listIterator.previous();
+//                        }
+//                        forward = false;
+//                    }
+//                    if(listIterator.hasPrevious()){
+//                        System.out.println("Now playing "+listIterator.previous().toString());
+//                    }else {
+//                        System.out.println("we are the first song");
+//                        forward = false;
+//                    }
+//                    break;
+//
+//                case 3:
+//                    if(forward){
+//                        if(listIterator.hasPrevious()){
+//                            System.out.println("Now playing "+listIterator.previous().toString());
+//                            forward = false;
+//                        }else {
+//                            System.out.println("we are at the start of the list");
+//                        }
+//                    }else {
+//                        if(listIterator.hasNext()){
+//                            System.out.println("now playing "+listIterator.next().toString());
+//                            forward = true;
+//                        }else {
+//                            System.out.println("we have reached to the end of list");
+//                        }
+//                    }
+//                    break;
+//
+//                case 4:
+//                    printList(playList);
+//                    break;
+//                case 5:
+//                    printMenu();
+//                    break;
+//                case 6:
+//                    if (playList.size() >0){
+//                        listIterator.remove();
+//                        if(listIterator.hasNext()){
+//                            System.out.println("now playing "+listIterator.next().toString());
+//                        }
+//                        else {
+//                            if(listIterator.hasPrevious())
+//                            System.out.println("now playing "+listIterator.previous().toString());
+//                        }
+//                    }
+//                    
+//
+//            }
             
             
         }
